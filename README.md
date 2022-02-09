@@ -11,10 +11,12 @@
 1. Setelah melakukan clone project ini, maka lakukan perintah "Composer install" 
 2. Setelah itu, copy paste env.example dan ubah nama filenya menjadi .env
 3. Lakukan perintah "php artisan key:generate" setelah itu jalankan "php artisan migrate"
-4. Aplikasi siap untuk digunakan.
+4. Jalankan perintah "php artisan serve" Aplikasi siap untuk digunakan.
 5. Untuk mengecek API dapat menggunakan Postman.
 6. Untuk mengecek API input dapat dilakukan dengan method "post" dan url "http://localhost:8000/api/input" dengan paramater : no_hp dan provider (telkomsel, xl, im3, axis, tri).
 7. Untuk mengecek API output dapat dilakukan dengan method "get" dan url "http://localhost:8000/api/output".
+
+Note : http://localhost:8000 (disesuaikan dengan localhost dan port device masing-masing.)
 
 ## About Laravel
 
